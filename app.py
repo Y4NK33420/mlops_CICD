@@ -5,6 +5,7 @@ import numpy as np
 
 app = FastAPI(title="Iris ML API")
 
+a = 5
 # Load model globally
 try:
     model = joblib.load('model.pkl')
